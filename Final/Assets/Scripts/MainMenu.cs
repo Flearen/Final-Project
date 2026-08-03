@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public Button startButton;
     // Start is called before the first frame update
     void Start()
+
     {
         startButton.onClick.AddListener(StartGameButton);
     }
