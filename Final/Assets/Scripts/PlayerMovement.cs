@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Animator anim;
+    //Animator anim;
     Rigidbody2D rb2d;
     float horizontalInput ;
     //player movement
@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -49,9 +49,9 @@ public class PlayerMovement : MonoBehaviour
              transform.localScale = new Vector3(1,1,1);   
         }
         //animation parameters
-        anim.SetFloat("Xspeed", Mathf.Abs(nextVelocityX));
-        anim.SetFloat("Yspeed", nextVelocityY);
-        anim.SetBool("Grounded", isGrounded);
+        //anim.SetFloat("Xspeed", Mathf.Abs(nextVelocityX));
+        //anim.SetFloat("Yspeed", nextVelocityY);
+        //anim.SetBool("Grounded", isGrounded);
         //Restrat if below certian height
         if(transform.position.y < gameOverHeight)
         {
