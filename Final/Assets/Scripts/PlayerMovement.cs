@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     public Transform GroundCheckPoint;
 
     public LayerMask GroundLayer;
-    float groundCheckRadius = 0.2f;
+    float groundCheckRadius = 1.2f;
     //reset player position
     public float gameOverHeight = -4f;
 
