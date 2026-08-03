@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2d rb;
+    Rigidbody2D rb;
     float horizontalInput;
     public float moveSpeed = 10f;
     public float jumpSpeed = 5f;
