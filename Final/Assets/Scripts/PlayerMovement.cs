@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
@@ -31,13 +31,13 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
         float nextVelocityX = horizontalInput * moveSpeed;
-        float nextVelocityY = rb2d.linearVelocity.y;
+        float nextVelocityY = rb2d.velocity.y;
         bool isGrounded = CheckGrounded();
         if(isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             nextVelocityY = jumpSpeed;
         }
-        rb2d.linearVelocity = new Vector2(nextVelocityX, nextVelocityY);
+        rb2d.velocity = new Vector2(nextVelocityX, nextVelocityY);
         //change player orientation based on input
         if(horizontalInput < 0)
         {
