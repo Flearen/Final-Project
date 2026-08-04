@@ -6362,7 +6362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 10
-  jumpSpeed: 1
+  jumpSpeed: 9
   GroundCheckPoint: {fileID: 875288219}
   GroundLayer:
     serializedVersion: 2
