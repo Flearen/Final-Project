@@ -421,7 +421,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Space + q = JUMP & DASH
+  m_text: Holding Space = jump higher
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6207,8 +6207,9 @@ GameObject:
   - component: {fileID: 2003749526}
   - component: {fileID: 2003749525}
   - component: {fileID: 2003749524}
-  - component: {fileID: 2003749528}
   - component: {fileID: 2003749529}
+  - component: {fileID: 2003749530}
+  - component: {fileID: 2003749532}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -6358,25 +6359,6 @@ Transform:
   - {fileID: 1210954612}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2003749528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003749523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34e7022dc09fe2240b64020fb311b8fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 10
-  jumpSpeed: 5
-  GroundCheckPoint: {fileID: 875288219}
-  GroundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  gameOverHeight: -7
 --- !u!95 &2003749529
 Animator:
   serializedVersion: 5
@@ -6385,7 +6367,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003749523}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -6398,6 +6380,43 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2003749530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003749523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1d096d17180ec40b068d4b0e2c68cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 2003749525}
+  groundCheck: {fileID: 875288219}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  tr: {fileID: 0}
+--- !u!114 &2003749532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003749523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e7022dc09fe2240b64020fb311b8fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  jumpSpeed: 1
+  GroundCheckPoint: {fileID: 875288219}
+  GroundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  gameOverHeight: -8
 --- !u!1 &2050697115
 GameObject:
   m_ObjectHideFlags: 0
