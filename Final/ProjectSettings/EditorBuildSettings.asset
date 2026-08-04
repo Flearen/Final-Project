@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: f0cdc6a5372e9bd4c87ca68f2ccca592
   - enabled: 1
-    path: Assets/Scenes/finalGame.unity
+    path: Assets/Scenes/finalGame dean.unity
     guid: 1dd578f6588fe3548bdb5f1400179a63
   m_configObjects: {}
