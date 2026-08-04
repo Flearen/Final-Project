@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    public void StartGameButton(){
+        SceneManager.LoadScene("Aidan TUTORIAL + charachter in");
+    }
+
     public Button startButton;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +25,5 @@ public class MainMenu : MonoBehaviour
         
     }
 
-     public void StartGameButton(){
-        SceneManager.LoadScene("finalGame");
-    }
+
 }

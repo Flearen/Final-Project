@@ -39,12 +39,12 @@ public class PlayerMovement : MonoBehaviour
         }
         rb2d.velocity = new Vector2(nextVelocityX, nextVelocityY);
         //change player orientation based on input
-        if(horizontalInput < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
+        //if(horizontalInput < 0)
+       // {
+        //    transform.localScale = new Vector3(-1, 1, 1);
            
-        }
-         else if(horizontalInput > 0)
+       // }
+        if(horizontalInput > 0)
         {
              transform.localScale = new Vector3(1,1,1);   
         }
