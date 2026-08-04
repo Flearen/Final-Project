@@ -16,11 +16,7 @@ public class loopBackground : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    void LateUpdate()
-    {
-        if(Camera.main.transform.position.x > transform.position.x + repeatWidth)
+         if(Camera.main.transform.position.x > transform.position.x + repeatWidth)
         {
             transform.position = new Vector3(transform.position.x + repeatWidth, transform.position.y, transform.position.z);
 
@@ -30,4 +26,5 @@ public class loopBackground : MonoBehaviour
             transform.position = new Vector3(transform.position.x - repeatWidth, transform.position.y, transform.position.z);
         }
     }
+   
 }
