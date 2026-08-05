@@ -44,10 +44,10 @@ public class PlayerMovement : MonoBehaviour
         //    transform.localScale = new Vector3(-1, 1, 1);
            
        // }
-        if(horizontalInput > 0)
-        {
-             transform.localScale = new Vector3(1,1,1);   
-        }
+        //if(horizontalInput > 0)
+        ///{
+       //      transform.localScale = new Vector3(2,2,1);   
+       // }
         //animation parameters
         //anim.SetFloat("Xspeed", Mathf.Abs(nextVelocityX));
         //anim.SetFloat("Yspeed", nextVelocityY);

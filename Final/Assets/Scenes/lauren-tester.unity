@@ -3120,8 +3120,10 @@ GameObject:
   - component: {fileID: 1253838804}
   - component: {fileID: 1253838803}
   - component: {fileID: 1253838802}
+  - component: {fileID: 1253838807}
   - component: {fileID: 1253838801}
   - component: {fileID: 1253838805}
+  - component: {fileID: 1253838806}
   m_Layer: 0
   m_Name: checkpoint1
   m_TagString: CHeckpoint
@@ -3274,6 +3276,46 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1253838806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253838800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa378b85f12d08049b7e3dc3beab01f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpoint1: {fileID: 1253838805}
+--- !u!50 &1253838807
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253838800}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1363989890
 GameObject:
   m_ObjectHideFlags: 0
@@ -3333,7 +3375,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7b46bb4f471afd340b9e50f133cd5bcb, type: 3}
+  m_Sprite: {fileID: 687441406, guid: 87d15de73779de24f958ebf243a540bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3369,7 +3411,7 @@ Animator:
   m_GameObject: {fileID: 1363989890}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 004e975fde8b48e4f9999f9d48551ac6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 526e0a29ccea6fc4aa60cac2a88318f0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
