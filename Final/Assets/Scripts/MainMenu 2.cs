@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu2 : MonoBehaviour
 {
 
     public void StartGameButton(){
-        SceneManager.LoadScene("Aidan TUTORIAL + charachter in 1");
+        SceneManager.LoadScene("Final Game - Aidan");
     }
 
     public Button startButton;
