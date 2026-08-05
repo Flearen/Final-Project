@@ -402,10 +402,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 869358710274a004ea29a801c7a7be87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 4468766230719681788, guid: f6b92f82c029a6646885e1c8d1690914, type: 3}
+  bullet: {fileID: 2134013423307221443, guid: 10ba88d3113c2094cb67d7c0277e83d0, type: 3}
   bulletTransform: {fileID: 682706291}
   canFire: 1
-  fireDelay: 1
+  fireDelay: 0.8
 --- !u!1 &875288218
 GameObject:
   m_ObjectHideFlags: 0
