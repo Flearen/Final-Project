@@ -8,7 +8,7 @@ public class MainMenu2 : MonoBehaviour
 {
 
     public void StartGameButton(){
-        SceneManager.LoadScene("Final Game - Aidan");
+        SceneManager.LoadScene("Final Game + tutorial Aidan");
     }
 
     public Button startButton;

@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
 {
 
     public void StartGameButton(){
-        SceneManager.LoadScene("Aidan TUTORIAL + charachter in 1");
+        SceneManager.LoadScene("Aidan TUTORIAL");
     }
 
     public Button startButton;
