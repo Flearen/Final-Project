@@ -12,7 +12,7 @@ public class dash : MonoBehaviour
     private bool isDashing;
     private float dashingPower = 30f;
     private float dashingTime = 0.4f;
-    private float dashingCooldown = 1f;
+    private float dashingCooldown = .3f;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
