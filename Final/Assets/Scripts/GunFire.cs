@@ -22,6 +22,7 @@ public class GunFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //make gun look at mouse
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         
         Vector3 rotation = mousePos - transform.position;
@@ -29,6 +30,7 @@ public class GunFire : MonoBehaviour
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
 
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
+        //gunfire
         if (!canFire)
         {
             timer += Time.deltaTime;
@@ -44,5 +46,6 @@ public class GunFire : MonoBehaviour
             canFire = false;
            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
         }
+        
     }
 }
