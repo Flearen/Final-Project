@@ -1,0 +1,1984 @@
+fileFormatVersion: 2
+guid: f770f980e7622154080c08fd472b83a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e93639dbf2000c4b94943d00d7abb80
+      internalID: 1112499848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7eb77bb913c988448e9ae6642c89231
+      internalID: -641943051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1893abe809beb4aa277068403a83f9
+      internalID: 1925849689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec05448f568c34e94ac4a167785e91
+      internalID: -1486846695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_4
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7b0febe74bc8c49a7c78551cb27cce
+      internalID: 1201351200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_5
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf43cba2f1bdd4f469fdfaebb20ac9f7
+      internalID: -834848634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_6
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9045376d828ce44492ab8544ebb410a
+      internalID: -780643646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_7
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d626b50ce200534ea955e6a825db3f5
+      internalID: 1977775240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_8
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394a76eef0b98194288cbcd59a89a6af
+      internalID: -1672932101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_9
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cef0f7de15f571408a916f51d44b604
+      internalID: 1659222950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_10
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84e9bcfc76aab8478d15ec54763872d
+      internalID: 1831026841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_11
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4a3f13bc8e17142897d3a797a529fd
+      internalID: -945889986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c5436e017395c4182a3ff14dbe011d
+      internalID: 1212895206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcfb9030cf9272469400404fbbc378b
+      internalID: 1723499741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_14
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab220652d56fdba49a990ab63f628dde
+      internalID: 191974705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_15
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8175747c10ac4a6429b2ad7124422adb
+      internalID: 842688585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_16
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded19bc11408d5b47a36ebdbe6cf85df
+      internalID: 1242344109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_17
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5723dfc3fcc3b2f4abf91af6cb31b99f
+      internalID: -2006694192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3498f1fbadfd94aa5bbc09d8127252
+      internalID: -1195453352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_19
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a41d7be7efa734a80a22f5683efdf8
+      internalID: -196781010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a4437fb459c4d499996e28371ae68f
+      internalID: -147690210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_21
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199f1a3ae9e89c24f9d98afb908312da
+      internalID: 919310609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_22
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4fbfffd72614743a930fe808e9e311
+      internalID: 230320135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_23
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cba78a01f7ca7d4cbd7c24797096bee
+      internalID: 883115022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a80254bd09c27d45871e628f3c66712
+      internalID: -1262605916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_25
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d803e0fcc480740b451efad189d6d7
+      internalID: -1147046046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4d923f309a3b4479f80cc9756ec1ad
+      internalID: 87846313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_27
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3bddc5026894148ad8133c2c7cf2a4
+      internalID: -825110659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_28
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0bdccfbaf3c3d40bc93b76faac8a79
+      internalID: 296690891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_29
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4ccb60a8c73a5419faf06279b5eb01
+      internalID: -1566843720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_30
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06c55b58aa9c9846b679077ae55c6f3
+      internalID: 1357184387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_31
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33bf746618cdeb48a87e33ef5ee19b1
+      internalID: 772916307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_32
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98e8211260547d4cbdbf798c28c0bec
+      internalID: 1466464161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_33
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d185356f38077a4ba56c07a8db3d4da
+      internalID: -1341325947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_34
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86d0c5d4452bd745a187208d1886ffa
+      internalID: -1082442881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_35
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1000
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001d8d21f6c7fa84d8ff7e8555886289
+      internalID: -1172556925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eee955bedaeae44b171deb4b0b3c08
+      internalID: 2009319715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09bba2f79b4ba84bbc3729b7cdf8aca
+      internalID: 62781785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_38
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d430da9080cbd4e9140c2a5393c785
+      internalID: 1484579805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_39
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce9852ea83f4c439664083cd062f75
+      internalID: 600267277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_40
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f810a4011f8a7fa4e91139d2d316169b
+      internalID: -404767687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_41
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bacee1548422444a653f137ee8f7f0
+      internalID: -1431566952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_42
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294ec9849faa21848a217d1809793019
+      internalID: 1232935875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_43
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504194234ab2aca49bd2c7d8b5616f91
+      internalID: -981953437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59f8ed6f95f8db478128131e0320597
+      internalID: -38959010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_45
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71417b89e538c4f42a007521799c99c8
+      internalID: -1414903264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_46
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc85d8d37dc5034cb3a15c40ea2dd17
+      internalID: 598912557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_47
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 800
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ec8226f38afb48bf365d0495d32f5
+      internalID: 87906551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c82e56e1147b5643836abf7a6c80766
+      internalID: 371132041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_49
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b466c524d46f824c821f8078bc47de8
+      internalID: -1491338243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_50
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1909dd7d62e90a6479c54bf1e6757718
+      internalID: -1833137946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_51
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5340cc6719ecddf4db1df249501da0e7
+      internalID: 2093408636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_52
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9111a66f672363548bcfff01d457e676
+      internalID: 10660782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_53
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650f40499ec74347a5a4e4050b816d7
+      internalID: 1356662774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_54
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c06014f8de874b89d8d7478c29133
+      internalID: -1913329817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_55
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d954db4ebb2a4344cabf49e42f86f178
+      internalID: -1271489780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_56
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f1d83333c79e94c9a48ed30e92e2b4
+      internalID: -988392171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_57
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3713b3a5ba96bd340b774ae08c280963
+      internalID: -384809596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_58
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc4edbd18ca80346a3d83240caeec96
+      internalID: -271459126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_59
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 600
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa18de033f52dcf48bac2df8a8e05722
+      internalID: -783341589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b000ffbc509d624e8eca213c81df9ac
+      internalID: -1071012253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_61
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c39a12f24f50f847b62105db8480411
+      internalID: -91758236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_62
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614c7ca5a910d254dbff4866bc472aa4
+      internalID: 1955758398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_63
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eef9c062848e66408345a520eecccd0
+      internalID: -460933958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_64
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089803d1a49f6b148881b20ad452fdbf
+      internalID: 1572302095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_65
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5a8bffd06b02848898367026059cc9
+      internalID: -142059949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_66
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab07df14a26903d43852ef1a06a89e01
+      internalID: 1832326751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_67
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37f15cddaf549243ba84899b95ad450
+      internalID: -1677983459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_68
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6126a29fb62320c469594a2057fe0b1c
+      internalID: 1637516110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_69
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f391fe32ad5714b9e6333a22950b2a
+      internalID: 839609174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_70
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aec08d3ab33fa42b1d2516c7fde006
+      internalID: -1745457679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_71
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 400
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29223761b1d1a3842b5eea68e803a577
+      internalID: -1589063091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342e6b4637075244092293c855e05186
+      internalID: 1323004241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_73
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b95446337b9d4448945580d459e77ee
+      internalID: 244267156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_74
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6041d6507862f1e42a073f5624e11078
+      internalID: 432070633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_75
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f70a7436ed7f24083b42a587fc18b2
+      internalID: -156209485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_76
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffdfec6ff1a91340b120a9c867f2c73
+      internalID: 624178478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_77
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0253ab2171c1296489d39bc9a3c1fe46
+      internalID: -1284763507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_78
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3113c653d8b9f342a5f70ef16d5617f
+      internalID: -547875678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_79
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a0a0b595433eb46a460e17f00d4bfb
+      internalID: -727390912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_80
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8b7353bbd915f46b48a6abaa97a0da
+      internalID: -1283477228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_81
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a824deb7fe70b0645b3f972c386f4a68
+      internalID: 935945359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_82
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd28e162ad032544a0b74516e8d85b7
+      internalID: -782620537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_83
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 200
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282bb0db2c7d3544ebffa5c121db5f45
+      internalID: -1634687204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: checkpoint_for_grains_of_glass_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e26d5f44c586e46b46030ec1553830
+      internalID: 877206417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      checkpoint_for_grains_of_glass_0: 1112499848
+      checkpoint_for_grains_of_glass_1: -641943051
+      checkpoint_for_grains_of_glass_10: 1831026841
+      checkpoint_for_grains_of_glass_11: -945889986
+      checkpoint_for_grains_of_glass_12: 1212895206
+      checkpoint_for_grains_of_glass_13: 1723499741
+      checkpoint_for_grains_of_glass_14: 191974705
+      checkpoint_for_grains_of_glass_15: 842688585
+      checkpoint_for_grains_of_glass_16: 1242344109
+      checkpoint_for_grains_of_glass_17: -2006694192
+      checkpoint_for_grains_of_glass_18: -1195453352
+      checkpoint_for_grains_of_glass_19: -196781010
+      checkpoint_for_grains_of_glass_2: 1925849689
+      checkpoint_for_grains_of_glass_20: -147690210
+      checkpoint_for_grains_of_glass_21: 919310609
+      checkpoint_for_grains_of_glass_22: 230320135
+      checkpoint_for_grains_of_glass_23: 883115022
+      checkpoint_for_grains_of_glass_24: -1262605916
+      checkpoint_for_grains_of_glass_25: -1147046046
+      checkpoint_for_grains_of_glass_26: 87846313
+      checkpoint_for_grains_of_glass_27: -825110659
+      checkpoint_for_grains_of_glass_28: 296690891
+      checkpoint_for_grains_of_glass_29: -1566843720
+      checkpoint_for_grains_of_glass_3: -1486846695
+      checkpoint_for_grains_of_glass_30: 1357184387
+      checkpoint_for_grains_of_glass_31: 772916307
+      checkpoint_for_grains_of_glass_32: 1466464161
+      checkpoint_for_grains_of_glass_33: -1341325947
+      checkpoint_for_grains_of_glass_34: -1082442881
+      checkpoint_for_grains_of_glass_35: -1172556925
+      checkpoint_for_grains_of_glass_36: 2009319715
+      checkpoint_for_grains_of_glass_37: 62781785
+      checkpoint_for_grains_of_glass_38: 1484579805
+      checkpoint_for_grains_of_glass_39: 600267277
+      checkpoint_for_grains_of_glass_4: 1201351200
+      checkpoint_for_grains_of_glass_40: -404767687
+      checkpoint_for_grains_of_glass_41: -1431566952
+      checkpoint_for_grains_of_glass_42: 1232935875
+      checkpoint_for_grains_of_glass_43: -981953437
+      checkpoint_for_grains_of_glass_44: -38959010
+      checkpoint_for_grains_of_glass_45: -1414903264
+      checkpoint_for_grains_of_glass_46: 598912557
+      checkpoint_for_grains_of_glass_47: 87906551
+      checkpoint_for_grains_of_glass_48: 371132041
+      checkpoint_for_grains_of_glass_49: -1491338243
+      checkpoint_for_grains_of_glass_5: -834848634
+      checkpoint_for_grains_of_glass_50: -1833137946
+      checkpoint_for_grains_of_glass_51: 2093408636
+      checkpoint_for_grains_of_glass_52: 10660782
+      checkpoint_for_grains_of_glass_53: 1356662774
+      checkpoint_for_grains_of_glass_54: -1913329817
+      checkpoint_for_grains_of_glass_55: -1271489780
+      checkpoint_for_grains_of_glass_56: -988392171
+      checkpoint_for_grains_of_glass_57: -384809596
+      checkpoint_for_grains_of_glass_58: -271459126
+      checkpoint_for_grains_of_glass_59: -783341589
+      checkpoint_for_grains_of_glass_6: -780643646
+      checkpoint_for_grains_of_glass_60: -1071012253
+      checkpoint_for_grains_of_glass_61: -91758236
+      checkpoint_for_grains_of_glass_62: 1955758398
+      checkpoint_for_grains_of_glass_63: -460933958
+      checkpoint_for_grains_of_glass_64: 1572302095
+      checkpoint_for_grains_of_glass_65: -142059949
+      checkpoint_for_grains_of_glass_66: 1832326751
+      checkpoint_for_grains_of_glass_67: -1677983459
+      checkpoint_for_grains_of_glass_68: 1637516110
+      checkpoint_for_grains_of_glass_69: 839609174
+      checkpoint_for_grains_of_glass_7: 1977775240
+      checkpoint_for_grains_of_glass_70: -1745457679
+      checkpoint_for_grains_of_glass_71: -1589063091
+      checkpoint_for_grains_of_glass_72: 1323004241
+      checkpoint_for_grains_of_glass_73: 244267156
+      checkpoint_for_grains_of_glass_74: 432070633
+      checkpoint_for_grains_of_glass_75: -156209485
+      checkpoint_for_grains_of_glass_76: 624178478
+      checkpoint_for_grains_of_glass_77: -1284763507
+      checkpoint_for_grains_of_glass_78: -547875678
+      checkpoint_for_grains_of_glass_79: -727390912
+      checkpoint_for_grains_of_glass_8: -1672932101
+      checkpoint_for_grains_of_glass_80: -1283477228
+      checkpoint_for_grains_of_glass_81: 935945359
+      checkpoint_for_grains_of_glass_82: -782620537
+      checkpoint_for_grains_of_glass_83: -1634687204
+      checkpoint_for_grains_of_glass_84: 877206417
+      checkpoint_for_grains_of_glass_9: 1659222950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
