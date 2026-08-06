@@ -5693,7 +5693,7 @@ MonoBehaviour:
   bullet: {fileID: 2134013423307221443, guid: 10ba88d3113c2094cb67d7c0277e83d0, type: 3}
   bulletTransform: {fileID: 199340599}
   canFire: 1
-  fireDelay: 0.1
+  fireDelay: 0.5
 --- !u!1 &929543590
 GameObject:
   m_ObjectHideFlags: 0
@@ -7613,7 +7613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxhp: 15
-  currenthp: 0
+  currenthp: 15
 --- !u!1 &2050697115
 GameObject:
   m_ObjectHideFlags: 0
