@@ -55,7 +55,9 @@ public class PlayerMovement : MonoBehaviour
         //Restrat if below certian height
         if(transform.position.y < gameOverHeight)
         {
+            print("I died from falling to far");
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
         }
     }
     bool CheckGrounded()
