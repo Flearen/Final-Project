@@ -7613,7 +7613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxhp: 15
-  currenthp: 0
+  currenthp: 15
 --- !u!1 &2050697115
 GameObject:
   m_ObjectHideFlags: 0
