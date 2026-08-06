@@ -7365,6 +7365,7 @@ GameObject:
   - component: {fileID: 2003749530}
   - component: {fileID: 2003749532}
   - component: {fileID: 2003749533}
+  - component: {fileID: 2003749534}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -7684,6 +7685,20 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &2003749534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003749523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4470398013ee184ead54e140d15d2da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxhp: 15
+  currenthp: 0
 --- !u!1 &2050697115
 GameObject:
   m_ObjectHideFlags: 0
