@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3837228823775354325}
   - component: {fileID: 2713797020239508645}
   - component: {fileID: -5762214581008332443}
+  - component: {fileID: -8736695948531426948}
   m_Layer: 0
   m_Name: Glass spine
   m_TagString: Untagged
@@ -125,4 +126,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fc07aee489dac64aa45916c0e9e890b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: 5
+  force: 10
+--- !u!114 &-8736695948531426948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7669302219523390398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06fee10853220c6478957635c8f6d32b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeTime: 3
+  damage: 1
