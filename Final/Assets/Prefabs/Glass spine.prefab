@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 3837228823775354325}
   - component: {fileID: 2713797020239508645}
   - component: {fileID: -5762214581008332443}
-  - component: {fileID: -8736695948531426948}
+  - component: {fileID: 7083979101153298685}
+  - component: {fileID: 5538046632468181133}
   m_Layer: 0
   m_Name: Glass spine
   m_TagString: Untagged
@@ -127,7 +128,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 10
---- !u!114 &-8736695948531426948
+--- !u!61 &7083979101153298685
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7669302219523390398}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
+--- !u!114 &5538046632468181133
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,8 +182,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7669302219523390398}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06fee10853220c6478957635c8f6d32b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d5ee75ebfb9663469fca418d78465bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 3
+  lifeTime: 5
   damage: 1

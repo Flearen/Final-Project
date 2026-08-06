@@ -19,4 +19,24 @@ public class projectileLifetime : MonoBehaviour
     {
         
     }
+    /*void OnCollisionEnter2D(Collision2D other)
+    {
+        Debug.Log("hit");
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("hit");
+            other.gameObject.GetComponent<enemyHP>().getDamaged(1f);
+        }
+                
+        Destroy(gameObject);
+        
+    }*/
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            other.gameObject.GetComponent<enemyHP>().getDamaged(1);
+            Destroy(gameObject);
+        }
+    }
 }

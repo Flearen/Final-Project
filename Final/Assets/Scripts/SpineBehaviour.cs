@@ -25,4 +25,12 @@ public class SpineBehaviour : MonoBehaviour
     {
         
     }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            //add a damage line of code here later
+            Destroy(gameObject);
+        }
+    }
 }

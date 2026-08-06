@@ -9,10 +9,15 @@ public class enemyShooting : MonoBehaviour
 
     private GameObject player;
     private float timer;
+
+    public float health;
+
+    public float maxHealth;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        health = maxHealth;
     }
 
     // Update is called once per frame
@@ -38,4 +43,14 @@ public class enemyShooting : MonoBehaviour
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }
+    
+    
+    /*public void TakeDamage(float amt)
+    {
+        health -= amt;
+        if (health <= 0 )
+        {
+            Destroy(gameObject);
+        }
+    }*/
 }
