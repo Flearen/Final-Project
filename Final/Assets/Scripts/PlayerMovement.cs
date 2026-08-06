@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     //player movement
     public float moveSpeed = 10f;
     public float jumpSpeed = 5f;
+    Animator anim;
      //variables for cheking if player is grounded
     public Transform GroundCheckPoint;
 
@@ -23,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -42,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
             rb2d.velocity = new Vector2(nextVelocityX, nextVelocityY);
         //change player orientation based on input
         //animation parameters
-        //anim.SetFloat("Xspeed", Mathf.Abs(nextVelocityX));
+        anim.SetFloat("Xspeed", Mathf.Abs(nextVelocityX));
         //anim.SetFloat("Yspeed", nextVelocityY);
         //anim.SetBool("Grounded", isGrounded);
         //Restrat if below certian height
