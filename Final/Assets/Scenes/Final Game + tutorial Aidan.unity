@@ -13946,6 +13946,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &610171831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -120.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 799150963710384365, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074809272021947376, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
+      propertyPath: m_Name
+      value: Glass Urchin (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d777cd258a97994aad43506c5f40c5b, type: 3}
 --- !u!1 &616330903
 GameObject:
   m_ObjectHideFlags: 0
@@ -27255,6 +27312,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 865316370}
   - {fileID: 1063232490}
+  - {fileID: 610171831}
   - {fileID: 570069323}
   - {fileID: 1478608143}
   - {fileID: 895011347}
