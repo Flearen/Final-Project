@@ -7,6 +7,8 @@ public class PlayerHP : MonoBehaviour
     public int maxhp ;
 
     public int currenthp;
+
+    private int damage = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +18,7 @@ public class PlayerHP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+           
     }
     public void TakeDamage(int amount)
     {
@@ -32,4 +34,14 @@ public class PlayerHP : MonoBehaviour
             
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Spine")
+        {
+            TakeDamage(damage);
+            
+        }
+    }
+
 }
