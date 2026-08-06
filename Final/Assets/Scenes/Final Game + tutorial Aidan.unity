@@ -23420,7 +23420,7 @@ MonoBehaviour:
   bullet: {fileID: 2134013423307221443, guid: 10ba88d3113c2094cb67d7c0277e83d0, type: 3}
   bulletTransform: {fileID: 1618192182}
   canFire: 1
-  fireDelay: 0.8
+  fireDelay: 0.5
 --- !u!1001 &1819737832
 PrefabInstance:
   m_ObjectHideFlags: 0
