@@ -196,8 +196,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 7669302219523390398, guid: 66d530b55c3d2e1488fc75798b9491e2, type: 3}
   bulletPos: {fileID: 3581958790326964654}
-  health: 0
-  maxHealth: 0
+  health: 4
+  maxHealth: 4
 --- !u!114 &1821597885493745882
 MonoBehaviour:
   m_ObjectHideFlags: 0
