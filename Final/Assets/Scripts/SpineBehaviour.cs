@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class SpineBehaviour : MonoBehaviour
 {
+    public float lifeTime = 3f;
     private GameObject player;
     private Rigidbody2D rb;
     public float force;
+    public int damage = 2;
     // Start is called before the first frame update
     void Start()
     {
+        Destroy(gameObject, lifeTime); 
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
 
@@ -29,7 +32,7 @@ public class SpineBehaviour : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            //add a damage line of code here later
+            other.gameObject.GetComponent<PlayerHP>().TakeDamage(damage);
             Destroy(gameObject);
         }
     }
