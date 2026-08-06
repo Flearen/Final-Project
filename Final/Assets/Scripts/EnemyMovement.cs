@@ -8,12 +8,22 @@ public class EnemyMovement : MonoBehaviour
 
     public float speedy;
     public int patrolDestination;
+
+    public Transform player;
+    public bool isChasing;
+    public float chaseDistance;
     // Start is called before the first frame update
     
 
     // Update is called once per frame
     void Update()
     {
+
+
+
+
+
+        
         if (patrolDestination == 0)
         {
             transform.position = Vector2.MoveTowards(transform.position, PatrolPoints[0].position, speedy * Time.deltaTime);
