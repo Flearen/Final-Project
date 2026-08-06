@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHP : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class PlayerHP : MonoBehaviour
         if (currenthp <= 0)
         {
             
-            Destroy(gameObject);
+            //Destroy(gameObject);
             // add a respawn enemies line here.
             //temporary destroy(maybe)
             
