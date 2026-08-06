@@ -6,7 +6,7 @@ public class dash : MonoBehaviour
     private float horizontal;
     private float speed = 8f;
     private float jumpingPower = 10f;
-    private bool isFacingRight = true;
+    //private bool isFacingRight = true;
 
     private bool canDash = true;
     private bool isDashing;
@@ -43,7 +43,7 @@ public class dash : MonoBehaviour
             StartCoroutine(Dash());
         }
 
-        Flip();
+        //Flip();
     }
 
     private void FixedUpdate()
@@ -61,7 +61,7 @@ public class dash : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
     }
 
-    private void Flip()
+    /*private void Flip()
     {
         if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
@@ -70,7 +70,7 @@ public class dash : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
-    }
+    }*/
 
     private IEnumerator Dash()
     {
