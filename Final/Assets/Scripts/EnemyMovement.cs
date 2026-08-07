@@ -20,7 +20,6 @@ public class EnemyMovement : MonoBehaviour
     {
         if (isChasing)
         {
-            speedy += 3;
             if (transform.position.x > player.transform.position.x)
             {
                 transform.position += Vector3.left * speedy * Time.deltaTime;
