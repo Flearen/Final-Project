@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHP : MonoBehaviour
 {
+    private string currentSceneName;
+
     public int maxhp ;
 
     public int currenthp;
@@ -14,6 +16,8 @@ public class PlayerHP : MonoBehaviour
     void Start()
     {
         currenthp = maxhp;
+        string currentSceneName = SceneManager.GetActiveScene().name;
+
     }
 
     // Update is called once per frame
@@ -28,10 +32,10 @@ public class PlayerHP : MonoBehaviour
         
         if (currenthp <= 0)
         {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
             
-            //Destroy(gameObject);
-            // add a respawn enemies line here.
-            //temporary destroy(maybe)
+            currenthp = maxhp;
             
         }
     }
