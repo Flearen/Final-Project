@@ -11,7 +11,7 @@ public class PlayerHP : MonoBehaviour
 
     public int currenthp;
 
-    private int damage = 2;
+    private int damage = 1;
     // Start is called before the first frame update
     void Start()
     {
